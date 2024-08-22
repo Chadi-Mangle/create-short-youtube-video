@@ -1,0 +1,8 @@
+services: 
+  app: 
+    build: . 
+    container_name: create-video
+    volumes: 
+      - .:/tmp
+    environment: 
+      URL: ${URL}
