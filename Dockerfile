@@ -13,4 +13,4 @@ COPY . /app
 
 EXPOSE 8080
 
-CMD ["python", "create_video_witout_tweet.py"]
+CMD ["python", "main.py"]
